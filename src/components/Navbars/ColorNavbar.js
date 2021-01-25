@@ -67,10 +67,10 @@ function ColorNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand id="navbar-brand" to="/index" tag={Link}>
-              Paper Kit PRO React
+              Evolution Consulting and Coaching Coalition
             </NavbarBrand>
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              Paper Kit PRO React
+              ECCC
             </UncontrolledTooltip>
             <button
               className="navbar-toggler"
@@ -221,7 +221,7 @@ function ColorNavbar() {
                   href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkpr-color-navbar"
                   target="_blank"
                 >
-                  <i className="nc-icon nc-cart-simple" /> Buy Now
+                  <i className="nc-icon nc-cart-simple" /> Log In
                 </Button>
               </NavItem>
             </Nav>
