@@ -346,6 +346,31 @@
         margin-bottom: 30px;
     }
 }
+.home{
+    .container{
+        max-width: 970px;
+    }
+    .header-wrapper{
+        height: 550px;
+    }
+    .section{
+        padding-top: 50px;
+    }
+    h3.title-uppercase{
+       margin-top: 50px;
+    }
+    p{
+        margin-top: 20px;
+    }
+    .creators{
+        margin-top: 100px;
+    }
+    .more-info{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+
 .discover{
     background-color: $bg-nude;
     .discover-title{

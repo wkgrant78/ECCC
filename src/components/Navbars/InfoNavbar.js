@@ -132,6 +132,10 @@ function WhiteNavbar() {
                     <i className="nc-icon nc-bank" />
                     About-us
                   </DropdownItem>
+                  <DropdownItem to="/home" tag={Link}>
+                    <i className="nc-icon nc-bank" />
+                    Home
+                  </DropdownItem>
                   <DropdownItem to="/add-product" tag={Link}>
                     <i className="nc-icon nc-basket" />
                     Add Product

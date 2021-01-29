@@ -2,51 +2,33 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Container,
-  Row,
-  Col,
+    Button,
+    Card,
+    CardBody,
+    CardFooter,
+    CardTitle,
+    Container,
+    Row,
+    Col,
 } from "reactstrap";
-
-// reactstrap components
-// import {
-// } from "reactstrap";
 
 // core components
 import ColorNavbar from "components/Navbars/ColorNavbar.js";
-import HomeHeader from "components/Headers/HomeHeader";
+import HomeHeader from "components/Headers/HomeHeader.js";
 import FooterHome from "components/Footers/FooterHome";
-// sections for this page
-// import SectionButtons from "./index-sections/SectionButtons.js";
-// import SectionNavigation from "./index-sections/SectionNavigation.js";
-// import SectionNavbars from "./index-sections/SectionNavbars.js";
-// import SectionPreFooterAreas from "./index-sections/SectionPreFooterAreas.js";
-// import SectionFooterAreas from "./index-sections/SectionFooterAreas.js";
-// import SectionDescriptionAreas from "./index-sections/SectionDescriptionAreas.js";
-// import SectionTypography from "./index-sections/SectionTypography.js";
-// import SectionNotification from "./index-sections/SectionNotification.js";
-// import SectionTables from "./index-sections/SectionTables.js";
-// import SectionComments from "./index-sections/SectionComments.js";
-// import SectionCommentsAreaSmall from "./index-sections/SectionCommentsAreaSmall.js";
-// import SectionJavaScript from "./index-sections/SectionJavaScript.js";
-// import SectionCards from "./index-sections/SectionCards.js";
 
-function Index() {
-  document.documentElement.classList.remove("nav-open");
-  React.useEffect(() => {
-    document.body.classList.add("index-page");
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
-    return function cleanup() {
-      document.body.classList.remove("index-page");
-    };
-  });
-  return (
-    <>
+function Home() {
+    document.documentElement.classList.remove("nav-open");
+    React.useEffect(() => {
+        document.body.classList.add("home");
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
+        return function cleanup() {
+            document.body.classList.remove("home");
+        };
+    });
+    return (
+        <>
             <ColorNavbar />
             <HomeHeader />
             <div className="main">
@@ -80,7 +62,8 @@ function Index() {
                 </div>
             </div>
             <FooterHome />
-        </>  );
+        </>
+    );
 }
 
-export default Index;
+export default Home;

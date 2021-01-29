@@ -47,6 +47,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 import SearchWithSidebar from "views/examples/SearchWithSidebar.js";
 import Settings from "views/examples/Settings.js";
 import TwitterRedesign from "views/examples/TwitterRedesign.js";
+import Home from "views/examples/Home.js";
 // others
 
 ReactDOM.render(
@@ -63,6 +64,7 @@ ReactDOM.render(
         render={(props) => <Presentation {...props} />}
       />
       <Route path="/about-us" render={(props) => <AboutUs {...props} />} />
+      <Route path="/home" render={(props) => <Home {...props} />} />
       <Route
         path="/add-product"
         render={(props) => <AddProduct {...props} />}

@@ -71,7 +71,7 @@ function WhiteNavbar() {
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
                   <DropdownItem to="/index" tag={Link}>
-                    All Components
+                    Services Offered
                   </DropdownItem>
                   <DropdownItem to="/presentation" tag={Link}>
                     Presentation

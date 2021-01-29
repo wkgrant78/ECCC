@@ -615,7 +615,7 @@ function SectionHeader() {
               </Container>
             </Navbar>
             <div className="page-header header-video">
-              <div className="filter filter-danger" />
+              {/* <div className="filter filter-danger" /> */}
               {/* We show the video image placeholder instead of the video for small devices */}
               <div
                 className="video-image"

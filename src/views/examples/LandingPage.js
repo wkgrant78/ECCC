@@ -15,7 +15,7 @@ import {
 } from "reactstrap";
 
 // core components
-import MultiDropdownNavbar from "components/Navbars/MultiDropdownNavbar.js";
+import MainNavbar from "components/Navbars/MainNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import FooterWhite from "components/Footers/FooterWhite.js";
 
@@ -31,7 +31,7 @@ function LandingPage() {
   });
   return (
     <>
-      <MultiDropdownNavbar />
+      <MainNavbar />
       <LandingPageHeader />
       <div className="wrapper">
         <div className="section text-center landing-section">
