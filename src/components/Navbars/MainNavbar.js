@@ -113,13 +113,13 @@ function MainNavbar() {
                                     Our Coaches
                                 </DropdownToggle>
                                 <DropdownMenu className="dropdown-clear" right>
-                                    <DropdownItem to="/examples/coaches" tag={Link}>
+                                    <DropdownItem to="/coaches" tag={Link}>
                                         Personal Coaches
                                     </DropdownItem>
-                                    <DropdownItem to="/presentation" tag={Link}>
+                                    <DropdownItem to="/coaches" tag={Link}>
                                         Professional Coaches
                                     </DropdownItem>
-                                    <DropdownItem to="/corporate-training" tag={Link}>
+                                    <DropdownItem to="/coaches" tag={Link}>
                                         Corporate Training Coaches
                                     </DropdownItem>
                                 </DropdownMenu>
@@ -130,10 +130,10 @@ function MainNavbar() {
                                         Membership
                                         </DropdownToggle>
                                     <DropdownMenu className="dropdown-clear" right>
-                                        <DropdownItem to="/index" tag={Link}>
+                                        <DropdownItem to="/membership" tag={Link}>
                                             Become a Client
                                         </DropdownItem>
-                                        <DropdownItem to="/examples" tag={Link}>
+                                        <DropdownItem to="/membership" tag={Link}>
                                             Become a Coach
                                         </DropdownItem>
                                     </DropdownMenu>

@@ -1,28 +1,49 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Button, Container } from "reactstrap";
 
 // core components
 
 function HomeHeader() {
+  let pageHeader = React.createRef();
+
+  React.useEffect(() => {
+    if (window.innerWidth > 991) {
+      const updateScroll = () => {
+        let windowScrollTop = window.pageYOffset / 10;
+        pageHeader.current.style.transform =
+          "translate3d(0," + windowScrollTop + "px,0)";
+      };
+      window.addEventListener("scroll", updateScroll);
+      return function cleanup() {
+        window.removeEventListener("scroll", updateScroll);
+      };
+    }
+  });
+
   return (
     <>
       <div
-        className="page-header page-header-small"
+        className="page-header"
+        ref={pageHeader}
         style={{
           backgroundImage:
-            "url(" + require("assets/img/sections/thirdevolution.jpg") + ")",
+            "url(" + require("assets/img/thirdevolution.jpg") + ")",
         }}
       >
-        {/* <div className="filter filter-danger" /> */}
+        <div className="filter" />
         <div className="content-center">
           <Container>
-            <h1>
-              Hello, <br />
-              We are Creative Tim.
-            </h1>
-            <h3>Let us tell you more about what we do.</h3>
+            <div className="motto">
+              <h1 className="title">We are Evolution Consulting <br />
+              and Coaching Coalition
+              </h1>
+              <h3 className="description">
+                Let us tell you more about what we do.
+              </h3>
+              <br />
+            </div>
           </Container>
         </div>
       </div>

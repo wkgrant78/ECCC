@@ -11,13 +11,20 @@ import {
   Container,
   Row,
   Col,
+  Carousel,
 } from "reactstrap";
 
 // core components
+import MainNavbar from "components/Navbars/MainNavbar.js";
+import OurCoachesHeader from "components/Headers/OurCoachesHeader.js";
+import FooterHome from "components/Footers/FooterHome";
+
 
 function Coaches() {
   return (
     <>
+      <MainNavbar />
+      {/* <OurCoachesHeader /> */}
       <div className="section section-team cd-section" id="teams">
         {/* ********* TEAM 1 ********* */}
         <div className="team-1">
@@ -1039,6 +1046,7 @@ function Coaches() {
         </div>
         {/* ********* END TEAM 5 ********* */}
       </div>
+      <FooterHome />
     </>
   );
 }
