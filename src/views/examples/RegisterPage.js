@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
+import MainNavbar from "components/Navbars/MainNavbar.js";
 
 function RegisterPage() {
   document.documentElement.classList.remove("nav-open");
@@ -29,7 +29,7 @@ function RegisterPage() {
   });
   return (
     <>
-      <ColorNavbar />
+      <MainNavbar />
       <div className="wrapper">
         <div
           className="page-header"
@@ -41,47 +41,7 @@ function RegisterPage() {
           <div className="filter" />
           <Container>
             <Row>
-              <Col className="ml-auto" lg="6" md="6" sm="7" xs="12">
-                <div className="info info-horizontal">
-                  <div className="icon">
-                    <i className="fa fa-umbrella" />
-                  </div>
-                  <div className="description">
-                    <h3>We've got you covered</h3>
-                    <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient. Everything you need in a
-                      single case.
-                    </p>
-                  </div>
-                </div>
-                <div className="info info-horizontal">
-                  <div className="icon">
-                    <i className="fa fa-map-signs" />
-                  </div>
-                  <div className="description">
-                    <h3>Clear Directions</h3>
-                    <p>
-                      Efficiently unleash cross-media information without
-                      cross-media value. Quickly maximize timely deliverables
-                      for real-time schemas.
-                    </p>
-                  </div>
-                </div>
-                <div className="info info-horizontal">
-                  <div className="icon">
-                    <i className="fa fa-user-secret" />
-                  </div>
-                  <div className="description">
-                    <h3>We value your privacy</h3>
-                    <p>
-                      Completely synergize resource taxing relationships via
-                      premier niche markets.
-                    </p>
-                  </div>
-                </div>
-              </Col>
-              <Col className="mr-auto" lg="6" md="6" sm="5" xs="12">
+              <Col className="col d-flex justify-content-center">
                 <Card className="card-register">
                   <CardTitle className="text-center" tag="h3">
                     Register
@@ -113,7 +73,7 @@ function RegisterPage() {
                   <div className="login">
                     <p>
                       Already have an account?{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="/login-page">
                         Log in
                       </a>
                       .

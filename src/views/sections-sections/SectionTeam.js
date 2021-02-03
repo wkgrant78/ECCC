@@ -14,6 +14,7 @@ import {
 } from "reactstrap";
 
 // core components
+import MainNavbar from "components/Navbars/MainNavbar.js";
 
 function SectionTeam() {
   return (

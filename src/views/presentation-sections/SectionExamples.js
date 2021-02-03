@@ -173,7 +173,7 @@ function SectionExamples() {
               </Card>
               <div className="details-text">Landing Page</div>
               <Card className="card-image">
-                <Link to="/landing-page" target="_blank">
+                <Link to="/services-page" target="_blank">
                   <img
                     alt="..."
                     src={require("assets/img/presentation-page/examples/landing.png")}

@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
+import ColorNavbar from "components/Navbars/MainNavbar.js";
 
 function LoginPage() {
   document.documentElement.classList.remove("nav-open");
@@ -77,7 +77,7 @@ function LoginPage() {
             <div className="demo-footer text-center">
               <h6>
                 © {new Date().getFullYear()}, made with{" "}
-                <i className="fa fa-heart heart" /> by Creative Tim
+                <i className="fa fa-heart heart" /> by WKG
               </h6>
             </div>
           </Container>

@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
+import MainNavbar from "components/Navbars/MainNavbar.js";
 import HomeHeader from "components/Headers/HomeHeader.js";
 import FooterHome from "components/Footers/FooterHome";
 
@@ -29,7 +29,7 @@ function Home() {
     });
     return (
         <>
-            <ColorNavbar />
+            <MainNavbar />
             <HomeHeader />
             <div className="main">
                 <div className="section">
