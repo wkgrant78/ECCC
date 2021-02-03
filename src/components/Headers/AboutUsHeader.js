@@ -20,7 +20,7 @@ function AboutUsHeader() {
           <Container>
             <h1>
               Hello, <br />
-              We are Creative Tim.
+              We are Evolution Consulting and Coaching Coalition
             </h1>
             <h3>Let us tell you more about what we do.</h3>
           </Container>

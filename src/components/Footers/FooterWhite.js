@@ -45,7 +45,7 @@ function FooterBlack() {
             <div className="credits ml-auto">
               <span className="copyright">
                 © {new Date().getFullYear()}
-                , made with <i className="fa fa-heart heart" /> by Creative Tim
+                , made with <i className="fa fa-heart heart" /> by WKG
               </span>
             </div>
           </Row>

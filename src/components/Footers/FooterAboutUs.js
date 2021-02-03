@@ -200,7 +200,7 @@ function FooterAboutUs() {
               <hr />
               <div className="copyright">
                 <div className="pull-left">
-                  © {new Date().getFullYear()} Creative Tim, made with love
+                  © {new Date().getFullYear()} WKG, made with love
                 </div>
                 <div className="links pull-right">
                   <ul>

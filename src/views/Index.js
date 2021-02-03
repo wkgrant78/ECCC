@@ -17,7 +17,7 @@ import {
 // } from "reactstrap";
 
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
+import MainNavbar from "components/Navbars/MainNavbar.js";
 import HomeHeader from "components/Headers/HomeHeader";
 import FooterHome from "components/Footers/FooterHome";
 // sections for this page
@@ -47,7 +47,7 @@ function Index() {
   });
   return (
     <>
-            <ColorNavbar />
+            <MainNavbar />
             <HomeHeader />
             <div className="main">
                 <div className="section">

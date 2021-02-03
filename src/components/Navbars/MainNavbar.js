@@ -21,7 +21,7 @@ import {
 // core components
 
 function MainNavbar() {
-    const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+    const [navbarColor, setNavbarColor] = React.useState(false);
     const [bodyClick, setBodyClick] = React.useState(false);
     const [collapseOpen, setCollapseOpen] = React.useState(false);
     React.useEffect(() => {
@@ -94,16 +94,10 @@ function MainNavbar() {
                                     Services Offered
                             </DropdownToggle>
                                 <DropdownMenu className="dropdown-clear">
-                                    <DropdownItem
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
+                                    <DropdownItem to="/services" tag={Link}>
                                         Personal Coaching
                                 </DropdownItem>
-                                    <DropdownItem
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
+                                    <DropdownItem to="/services" tag={Link}>
                                         Professional Coaching
                                 </DropdownItem>
                                     <DropdownItem
@@ -119,11 +113,11 @@ function MainNavbar() {
                                     Our Coaches
                                 </DropdownToggle>
                                 <DropdownMenu className="dropdown-clear" right>
-                                    <DropdownItem to="/index" tag={Link}>
+                                    <DropdownItem to="/examples/coaches" tag={Link}>
                                         Personal Coaches
                                     </DropdownItem>
                                     <DropdownItem to="/presentation" tag={Link}>
-                                        Profession Coaches
+                                        Professional Coaches
                                     </DropdownItem>
                                     <DropdownItem to="/corporate-training" tag={Link}>
                                         Corporate Training Coaches
@@ -133,7 +127,7 @@ function MainNavbar() {
                             <UncontrolledDropdown>
                                 <UncontrolledDropdown nav inNavbar>
                                     <DropdownToggle className="mr-2" color="black" caret nav>
-                                        Become a Member
+                                        Membership
                                         </DropdownToggle>
                                     <DropdownMenu className="dropdown-clear" right>
                                         <DropdownItem to="/index" tag={Link}>
@@ -160,6 +154,29 @@ function MainNavbar() {
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
                             </UncontrolledDropdown>
+                            
+                            <UncontrolledDropdown>
+                                <UncontrolledDropdown nav inNavbar>
+                                    <DropdownToggle className="mr-2" color="black" caret nav>
+                                        My Account
+                                    </DropdownToggle>
+                                    <DropdownMenu className="dropdown-clear" right>
+                                        <DropdownItem to="/login-page" tag={Link}>
+                                            Login
+                                        </DropdownItem>
+                                        <DropdownItem to="/register-page" tag={Link}>
+                                            Create an Account
+                                        </DropdownItem>
+                                    </DropdownMenu>
+                                </UncontrolledDropdown>
+                            </UncontrolledDropdown>
+
+
+                            {/* <a class="navbar-login" href="login-page">
+                                Login</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button> */}
                         </Nav>
                     </Collapse>
                 </Container>
