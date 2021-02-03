@@ -6460,7 +6460,7 @@ textarea.form-control {
     z-index: -1; }
   .page-header .content-center {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     z-index: 3;
     -ms-transform: translate(-50%, -50%);
@@ -6473,7 +6473,8 @@ textarea.form-control {
     color: #FFFFFF;
     text-align: center;
     z-index: 2;
-    position: relative; }
+    position: relative; 
+    padding-bottom: 287px;}
   .page-header .filter::after {
     background-color: rgba(0, 0, 0, 0.5);
     content: "";
@@ -12574,5 +12575,9 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
   top: 1px;
   border-width: 0 .4rem .4rem .4rem;
   border-bottom-color: #fff; }
+
+.services-container {
+  padding-bottom: 201px;
+}
 
 /*# sourceMappingURL=paper-kit.css.map */
