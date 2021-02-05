@@ -18,6 +18,9 @@ import {
 } from "reactstrap";
 
 // core components
+import MainNavbar from "components/Navbars/MainNavbar.js";
+import MembershipHeader from "components/Headers/MembershipHeader.js";
+import FooterHome from "components/Footers/FooterHome";
 
 function Membership() {
   const [activePill, setActivePill] = React.useState("1");
@@ -25,6 +28,8 @@ function Membership() {
   const [pillActive, setPillActive] = React.useState("personal");
   return (
     <>
+      <MainNavbar />
+      <MembershipHeader />
       <div className="section section-pricing cd-section" id="pricing">
         {/* ********* PRICING 1 ********* */}
         <div className="pricing-1 section">
@@ -771,6 +776,7 @@ function Membership() {
         </div>
         {/* ********* END PRICING 5 ********* */}
       </div>
+      <FooterHome />
     </>
   );
 }

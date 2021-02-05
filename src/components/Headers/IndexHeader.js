@@ -10,7 +10,7 @@ function IndexHeader() {
       <div
         className="page-header"
         style={{
-          backgroundImage: "url(" + require("assets/img/thirdevolution.jpg") + ")",
+          backgroundImage: "url(" + require("assets/img/eccc/yellow-flower.jpeg") + ")",
         }}
       >
         <div className="filter" />

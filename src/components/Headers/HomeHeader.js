@@ -29,7 +29,7 @@ function HomeHeader() {
         ref={pageHeader}
         style={{
           backgroundImage:
-            "url(" + require("assets/img/thirdevolution.jpg") + ")",
+            "url(" + require("assets/img/eccc/yellow-flower.jpeg") + ")",
         }}
       >
         <div className="filter" />
