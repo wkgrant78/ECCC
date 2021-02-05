@@ -31,7 +31,7 @@ import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import Sections from "views/Sections.js";
 // import Services from "views/Services";
-import Presentation from "views/Presentation.js";
+// import Presentation from "views/Presentation.js";
 import AboutUs from "views/examples/AboutUs.js";
 import AddProduct from "views/examples/AddProduct.js";
 import Coaches from "views/examples/Coaches.js";
@@ -63,9 +63,9 @@ ReactDOM.render(
       
       <Route path="/sections" render={(props) => <Sections {...props} />} />
       
-      <Route
+      {/* <Route
         path="/presentation"
-        render={(props) => <Presentation {...props} />} />
+        render={(props) => <Presentation {...props} />} /> */}
 
       <Route path="/about-us" render={(props) => <AboutUs {...props} />} />
       
