@@ -19,7 +19,7 @@ function FooterHome() {
       <footer className="footer footer-big footer-black">
         <Container>
           <Row>
-            <Col className="ml-auto mr-auto" md="2" sm="3" xs="6">
+            {/* <Col className="ml-auto mr-auto" md="2" sm="3" xs="6">
               <FormGroup>
                 <Select
                   menuPlacement="top"
@@ -102,7 +102,7 @@ function FooterHome() {
                   ]}
                 />
               </FormGroup>
-            </Col>
+            </Col> */}
             <Col className="ml-auto mr-auto" md="9" sm="9" xs="12">
               <Row>
                 <Col md="3" sm="3" xs="6">

@@ -17,7 +17,7 @@ import {
 } from "reactstrap";
 
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
+import MainNavbar from "components/Navbars/MainNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import FooterWhite from "components/Footers/FooterWhite.js";
 
@@ -39,7 +39,7 @@ function ProfilePage() {
   });
   return (
     <>
-      <ColorNavbar />
+      <MainNavbar />
       <ProfilePageHeader />
       <div className="wrapper">
         <div className="profile-content section">
@@ -58,8 +58,8 @@ function ProfilePage() {
                   </div>
                   <div className="name">
                     <h4 className="title text-center">
-                      Chet Faker <br />
-                      <small>Music Producer</small>
+                      Pamela Grant <br />
+                      <small>Personal Coach</small>
                     </h4>
                   </div>
                 </div>
@@ -76,12 +76,12 @@ function ProfilePage() {
                 <br />
                 <Button className="btn-round" color="default" outline>
                   <i className="fa fa-cog mr-1" />
-                  Settings
+                  Book a Consultation
                 </Button>
               </Col>
             </Row>
             <br />
-            <div className="nav-tabs-navigation">
+            {/* <div className="nav-tabs-navigation">
               <div className="nav-tabs-wrapper">
                 <Nav role="tablist" tabs>
                   <NavItem>
@@ -106,9 +106,9 @@ function ProfilePage() {
                   </NavItem>
                 </Nav>
               </div>
-            </div>
+            </div> */}
             {/* Tab panes */}
-            <TabContent className="following" activeTab={activeTab}>
+            {/* <TabContent className="following" activeTab={activeTab}>
               <TabPane tabId="1" id="follows">
                 <Row>
                   <Col className="ml-auto mr-auto" md="6">
@@ -178,7 +178,7 @@ function ProfilePage() {
                   Find artists
                 </Button>
               </TabPane>
-            </TabContent>
+            </TabContent> */}
           </Container>
         </div>
       </div>

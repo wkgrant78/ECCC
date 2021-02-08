@@ -58,7 +58,7 @@ function LoginPage() {
                       type="password"
                     />
                     <Button block className="btn-round" color="danger">
-                      Register
+                      Sign in
                     </Button>
                   </Form>
                   <div className="forgot">
