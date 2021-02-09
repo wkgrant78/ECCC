@@ -108,15 +108,19 @@ function MainNavbar() {
                                 </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
+
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle className="mr-2" color="black" caret nav>
                                     Our Coaches
                                 </DropdownToggle>
                                 <DropdownMenu className="dropdown-clear" right>
-                                    <DropdownItem to="/coaches" tag={Link}>
+                                <DropdownItem to="/coaches" tag={Link}>
+                                        Coaches
+                                    </DropdownItem>
+                                    <DropdownItem to="/coaches-personal" tag={Link}>
                                         Personal Coaches
                                     </DropdownItem>
-                                    <DropdownItem to="/coaches" tag={Link}>
+                                    <DropdownItem to="/coaches-professional" tag={Link}>
                                         Professional Coaches
                                     </DropdownItem>
                                     <DropdownItem to="/coaches" tag={Link}>
@@ -124,6 +128,7 @@ function MainNavbar() {
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
+
                             <UncontrolledDropdown>
                                 <UncontrolledDropdown nav inNavbar>
                                     <DropdownToggle className="mr-2" color="black" caret nav>
@@ -139,6 +144,7 @@ function MainNavbar() {
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
                             </UncontrolledDropdown>
+
                             <UncontrolledDropdown>
                                 <UncontrolledDropdown nav inNavbar>
                                     <DropdownToggle className="mr-2" color="black" caret nav>
@@ -155,6 +161,26 @@ function MainNavbar() {
                                 </UncontrolledDropdown>
                             </UncontrolledDropdown>
                             
+                            <UncontrolledDropdown>
+                                <UncontrolledDropdown nav inNavbar>
+                                    <DropdownToggle className="mr-2" color="black" caret nav>
+                                        Media
+                                    </DropdownToggle>
+                                    <DropdownMenu className="dropdown-clear" right>
+                                    <DropdownItem className="mr-2" color="black">
+                                            Blogs
+                                    </DropdownItem>
+                                        <DropdownItem to="/index" tag={Link}>
+                                            Videos
+                                    </DropdownItem>
+                                        <DropdownItem className="mr-2" color="black">
+                                            Podcasts
+                                    </DropdownItem>
+                                    </DropdownMenu>
+                                </UncontrolledDropdown>
+                            </UncontrolledDropdown>
+
+
                             <UncontrolledDropdown>
                                 <UncontrolledDropdown nav inNavbar>
                                     <DropdownToggle className="mr-2" color="black" caret nav>
