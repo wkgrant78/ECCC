@@ -1,5 +1,5 @@
-# Evolution Consulting and Coaching Coalition (ECCC)
-[ECCC](https://coaching-coalition.netlify.app/index)
+# Evolution Consulting and Coaching Coalition ([ECCC](https://coaching-coalition.netlify.app/index))
+
 
 ## About
 A coalition formed to support coaches in reaching their potential and growing their practice in a supportive and collaborative way, and to provide clients and businesses one location to find all their coaching and training needs.
