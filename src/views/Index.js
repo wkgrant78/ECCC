@@ -21,9 +21,8 @@ import MainNavbar from "components/Navbars/MainNavbar.js";
 import HomeHeader from "components/Headers/HomeHeader";
 import FooterHome from "components/Footers/FooterHome";
 // sections for this page
-// import SectionButtons from "./index-sections/SectionButtons.js";
-// import SectionNavigation from "./index-sections/SectionNavigation.js";
-// import SectionNavbars from "./index-sections/SectionNavbars.js";
+import CoachesProfessional from "./examples/CoachesProfessional";
+import CoachesPersonal from "./examples/CoachesPersonal";
 // import SectionPreFooterAreas from "./index-sections/SectionPreFooterAreas.js";
 // import SectionFooterAreas from "./index-sections/SectionFooterAreas.js";
 // import SectionDescriptionAreas from "./index-sections/SectionDescriptionAreas.js";
