@@ -2,37 +2,17 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
   Container,
-  Row,
-  Col,
 } from "reactstrap";
 
-// reactstrap components
-// import {
-// } from "reactstrap";
 
 // core components
 import MainNavbar from "components/Navbars/MainNavbar.js";
 import HomeHeader from "components/Headers/HomeHeader";
 import FooterHome from "components/Footers/FooterHome";
 // sections for this page
-import CoachesProfessional from "./examples/CoachesProfessional";
-import CoachesPersonal from "./examples/CoachesPersonal";
-// import SectionPreFooterAreas from "./index-sections/SectionPreFooterAreas.js";
-// import SectionFooterAreas from "./index-sections/SectionFooterAreas.js";
-// import SectionDescriptionAreas from "./index-sections/SectionDescriptionAreas.js";
-// import SectionTypography from "./index-sections/SectionTypography.js";
-// import SectionNotification from "./index-sections/SectionNotification.js";
-// import SectionTables from "./index-sections/SectionTables.js";
-// import SectionComments from "./index-sections/SectionComments.js";
-// import SectionCommentsAreaSmall from "./index-sections/SectionCommentsAreaSmall.js";
-// import SectionJavaScript from "./index-sections/SectionJavaScript.js";
-// import SectionCards from "./index-sections/SectionCards.js";
+// import CoachesProfessional from "./CoachesProfessional";
+// import CoachesPersonal from "./CoachesPersonal";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");

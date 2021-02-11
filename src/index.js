@@ -35,8 +35,8 @@ import Coaches from "views/Coaches.js";
 // import Presentation from "views/Presentation.js";
 import AboutUs from "views/examples/AboutUs.js";
 import AddProduct from "views/examples/AddProduct.js";
-import CoachesPersonal from "views/examples/CoachesPersonal.js";
-import CoachesProfessional from "views/examples/CoachesProfessional.js";
+import CoachesPersonal from "./views/CoachesPersonal";
+import CoachesProfessional from "./views/CoachesProfessional";
 import ContactUs from "views/examples/ContactUs.js";
 import Discover from "views/examples/Discover.js";
 import Error404 from "views/examples/Error404.js";
@@ -92,6 +92,10 @@ ReactDOM.render(
       
       <Route path="/coaches" render={(props) => <Coaches {...props} />} />
       
+      <Route path="/coaches-professional" render={(props) => <CoachesProfessional {...props} />} />
+
+      <Route path="/coaches-personal" render={(props) => <CoachesPersonal {...props} />} />
+
       <Route path="/login-page" render={(props) => <LoginPage {...props} />} />
       
       <Route path="/services" render={(props) => <Services {...props} />} />
