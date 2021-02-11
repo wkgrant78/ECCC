@@ -6,11 +6,11 @@ import {
   Card,
   CardBody,
   CardTitle,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
+  // NavItem,
+  // NavLink,
+  // Nav,
+  // TabContent,
+  // TabPane,
   Container,
   Row,
   Col,
@@ -22,9 +22,9 @@ import MembershipHeader from "components/Headers/MembershipHeader.js";
 import FooterHome from "components/Footers/FooterHome";
 
 function Membership() {
-  const [activePill, setActivePill] = React.useState("1");
-  // pills for the last pricing
-  const [pillActive, setPillActive] = React.useState("personal");
+  // const [activePill, setActivePill] = React.useState("1");
+  // // pills for the last pricing
+  // const [pillActive, setPillActive] = React.useState("personal");
   return (
     <>
       <MainNavbar />
@@ -40,7 +40,7 @@ function Membership() {
                   package.
                 </h5>
                 <br />
-                <Nav className="nav-pills-danger justify-content-center" pills>
+                {/* <Nav className="nav-pills-danger justify-content-center" pills>
                   <NavItem>
                     <NavLink
                       className={activePill === "1" ? "active" : ""}
@@ -69,7 +69,7 @@ function Membership() {
                 <TabContent activeTab={"pill-" + activePill}>
                   <TabPane tabId={"pill-" + activePill} />
                   <TabPane tabId={"pill-" + activePill} />
-                </TabContent>
+                </TabContent> */}
               </Col>
             </Row>
             <div className="space-top" />
