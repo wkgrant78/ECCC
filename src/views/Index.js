@@ -49,12 +49,14 @@ function Index() {
                         <i className="fa fa-heart heart mr-3 ml-1" />
                         what we do.
                         </h3>
+                        <div className="home-p2">
                         <p>
                             Completely synergize resource taxing relationships via premier
                             niche markets. Professionally cultivate one-to-one customer
                             service with robust ideas. Dynamically innovate resource-leveling
                             customer service for state of the art customer service.
                         </p>
+                        </div>
                     </Container>
                 </div>
             </div>

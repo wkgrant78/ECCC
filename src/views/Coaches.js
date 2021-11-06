@@ -93,10 +93,22 @@ function Coaches() {
                   <CardBody>
                     <CardTitle tag="h4">Pamela Grant</CardTitle>
                     <h6 className="card-category">Cofounder</h6>
-                    <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                    <p className="card-description text-justify">
+                    After working in the corporate world for many years, Pamela obtained a Master’s Degree in Occupational Education and started her coaching, career counseling and management training company.
+                    <br></br>
+                    <br></br>
+                    She has worked with clients worldwide and has a reputation for facilitating clients through a process that enables them to find their true calling and obtain the success they desire.
+                    <br></br>
+                    <br></br>
+                    In her management training, she has trained participants in communication skills, time management, stress management and overall leadership skills.
+                    <br></br>
+                    <br></br>
+                    She brings decades of experience and success to her business.
+
+She has now formed a company with her longtime friend and business partner to bring a conglomerate of talented coaches together. 
+
+Our desire is to bring a variety of coaching expertise to a diverse group of participants.
+
                     </p>
 
                     <CardFooter>
@@ -134,11 +146,12 @@ function Coaches() {
                   <CardBody>
                     <CardTitle tag="h4">Sherry Holster</CardTitle>
                     <h6 className="card-category">Cofounder</h6>
-                    <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
-                    </p>
+                    <p className="card-description text-justify">
+                    Sherry Holster has been a successful owner of three independent businesses.  She has over 25 years experience in finance and management with multi-million dollar corporations.  In her coaching practice she is a Money, Personal and Business coach. This enables her to support the client in every aspect of their life. She has successfully helped clients change their relationship with money and in turn change their financial destiny.
+                    <br></br>
+                    <br></br>
+                    After years of collaboration with her friend of over '20' years their passion for bringing out the best in their clients has led them to form Evolution Consulting and Coaching Coalition.
+                    </p> 
 
                     <CardFooter>
                       <Button
